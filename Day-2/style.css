@@ -1,14 +1,17 @@
 .heading {
-    color: red;
+    color: rgb(52, 112, 185);
+    text-align: center;
+    text-transform: uppercase;
 }
-
 #box{
-    background-color: blue;
+    font-family:'Times New Roman';
 }
 button{
     color: burlywood;
-    background-color: green;
 }
-body{
-    background-color: beige;
-} 
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+}
