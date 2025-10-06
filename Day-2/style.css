@@ -1,0 +1,14 @@
+.heading {
+    color: red;
+}
+
+#box{
+    background-color: blue;
+}
+button{
+    color: burlywood;
+    background-color: green;
+}
+body{
+    background-color: beige;
+} 
