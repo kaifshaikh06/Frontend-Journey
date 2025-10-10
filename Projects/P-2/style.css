@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ade8f4;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-box{
+    height: 900px;
+    width:800px;
+    border-radius: 20px;
+    background-color: #03045e;
+    box-shadow: 4px 5px 5px 0 rgba(1,1,1,0.5);
+}
+
+.head{
+    margin: 50px 0 0 50px;
+    font-size: 50px;
+    display: flex;
+}
+
+.small-head{
+    font-size: 50%;
+}
+
+.form{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+input, select , textarea{
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+    margin-top: 5px;
+}
