@@ -9,7 +9,63 @@
 </head>
 
 <body>
-
+    <div class="container">
+        <div class="apply-box">
+            <h1>
+                Job Application
+                <span>(Web)</span>
+            </h1>
+            <form action="">
+                <div class="form-container">
+                    <div class="form-control">
+                        <label for="firstname"> First Name </label>
+                        <input type="text" id="firstname" placeholder="Enter First Name">
+                    </div>
+                    <div class="form-control">
+                        <label for="lastname"> Last Name </label>
+                        <input type="text" id="lastname" placeholder="Enter Last Name">
+                    </div>
+                    <div class="form-control">
+                        <label for="email"> Email </label>
+                        <input type="email" id="email" placeholder="Enter Email Address">
+                    </div>
+                    <div class="form-control">
+                        <label for="jobrole"> Job Role </label>
+                        <select name="jobrole" id="jobrole">
+                            <option value="">Select Job Role</option>
+                            <option value="frontend"> frontend Engineer</option>
+                            <option value="backend"> Backend Engineer</option>
+                            <option value="fullstack"> Fullstack Developer</option>
+                            <option value="ai/ml"> AI/Ml Engineer</option>
+                        </select>
+                    </div>
+                    <div class="textarea-control">
+                        <label for="address"> Address </label>
+                        <textarea name="address" id="address" placeholder="Enter Address" rows="4" cols="50"></textarea>
+                    </div> 
+                    <div class="form-control">
+                        <label for="city"> City </label>
+                        <input type="text" id="city" placeholder="Enter City">
+                    </div> 
+                    <div class="form-control">
+                        <label for="pincode"> Pincode </label>
+                        <input type="number" id="pincode" placeholder="Enter Pincode">
+                    </div>  
+                    <div class="form-control">
+                        <label for="date"> Date </label>
+                        <input type="date" id="date" value="2025-10-14"> 
+                    </div>
+                    <div class="form-control">
+                        <label for="file"> Upload Your CV</label>
+                        <input type="file" id="file">
+                    </div> 
+                </div>
+                <div class="button-container">
+                    <button type="submit"> Apply Now</button>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
