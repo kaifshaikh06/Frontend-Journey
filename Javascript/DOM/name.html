@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Name</title>
 </head>
 <body>
-    
+    <input type="text" name="name" class="nameElement" placeholder="Enter your name" onkeydown="enterElement(event)">
+    <button onclick="submitElement()" >submit</button>
+    <p class="displayName"></p>
+
+    <script>
+        function enterElement(event){
+            if (event.key === 'Enter'){
+                submitElement();
+            }
+        }
+
+        function submitElement(){
+            const inputElement = document.querySelector('.nameElement');
+            let submit = inputElement.value;
+
+            document.querySelector('.displayName').innerHTML = `Your name is: ${submit}`;
+        }
+    </script>
 </body>
 </html>
