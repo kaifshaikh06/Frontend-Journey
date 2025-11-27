@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <!-- <button>Kaif</button>
+    <button class="nameElement">fiak</button> -->
+    <button onclick="headElement()">Heads</button>
+    <button onclick="tailElement()">Tails</button>
+    <p class="userChoice"></p>
+
+    <script>
+        // console.log(document.querySelector('button').innerHTML);
+        // document.querySelector('.nameElement').innerHTML = 'Shaikh kaif';
+
+        function headElement(){
+            document.querySelector('.userChoice').innerHTML = 'You choose: Heads';
+        }
+
+        function tailElement(){
+            document.querySelector('.userChoice').innerHTML = 'You choose: Tails';
+        }
+    </script>
+</body>
+</html>
